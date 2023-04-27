@@ -21,7 +21,7 @@ class App:
         # Save the file to a predefined filename
         # or use the filename sent by the client:
         # upload_filename = ufile.filename
-        upload_filename = 'saved.txt'
+        upload_filename = 'testReceived.txt'
 
         upload_file = os.path.normpath(
             os.path.join(upload_path, upload_filename))

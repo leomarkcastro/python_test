@@ -1,0 +1,21 @@
+num,cn,uid,managers,managers_id
+0,Jason Brown,TW19UK,Sherry Johnson,LZ60TF
+1,Jacob Stein,CP98TB,Jason Brown,TW19UK
+2,Cody Brown,GD64MV,Jason Brown,TW19UK
+3,Larry Morales,RQ45BI,Jacob Stein,CP98TB
+4,Jessica Hendricks,FA58VK,Cody Brown,GD64MV
+5,Brian Moore,QD40BF,Jacob Stein,CP98TB
+6,Scott Baker,CM58KA,Brian Moore,QD40BF
+7,Ruth Hoffman,UQ32CC,Brian Moore,QD40BF
+8,Daniel George,CH11TH,Brian Moore,QD40BF
+9,David Moody,MO26RU,Larry Morales,RQ45BI
+10,Brian Maxwell,XE71OW,Brian Moore,QD40BF
+11,Cory Cooper,BX38ES,Daniel George,CH11TH
+12,Morgan Foster,SN51JQ,Daniel George,CH11TH
+13,James Sandoval,GJ40KA,Brian Maxwell,XE71OW
+14,Brian Lester,JE41OI,David Moody,MO26RU
+15,Anne Davis,TY63IG,Daniel George,CH11TH
+16,Miss Amanda Harris MD,AD03QE,David Moody,MO26RU
+17,Amy Dunn,LK06OL,Brian Maxwell,XE71OW
+18,Brian Lee,ME42WK,Ruth Hoffman,UQ32CC
+19,Kimberly Pratt,GW11SY,Daniel George,CH11TH

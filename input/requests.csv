@@ -1,0 +1,21 @@
+num;Time;User;Safe;Action;Target (server);Request ID;Reason;Request Number;
+13;11-2-2021 20:37;IW49EO;Root\account_AKRGZR;Get File Request;lrv9dgeg8;3;must update server;109;
+7;19-6-2020 06:45;WJ47HC;Root\account_BWDJFF;Get File Request;lrv9dgeg8;5;reports run;109;
+8;7-1-2021 19:16;VP98HL;Root\account_BWDJFF;Get File Request;lrv9dgeg8;1;incident;109;
+9;8-9-2020 01:03;VV04CX;Root\account_BWDJFF;Get File Request;lrv9dgeg8;8;;109;
+18;17-11-2020 18:51;MJ50PA;Root\account_BWDJFF;Get File Request;lrv9dgeg8;7;;109;
+2;29-5-2020 13:42;WH78JX;Root\account_CDAEFT;Get File Request;lrv9dgeg8;4;test;109;
+6;28-2-2021 19:24;WS82AE;Root\account_CDAEFT;Get File Request;lrv9dgeg8;8;;109;
+15;11-1-2021 14:53;YR03TU;Root\account_FISCHW;Get File Request;lrvd2657c;4;incident;109;
+17;9-8-2020 06:11;TR28QY;Root\account_FISCHW;Get File Request;lrvd2657c;5;;109;
+5;30-5-2020 05:50;EC89LL;Root\account_LKYWJI;Get File Request;lrvb62802;6;test;109;
+16;18-7-2020 07:17;KO21UH;Root\account_LKYWJI;Get File Request;lrvb62802;5;;109;
+4;17-11-2020 00:49;FX42KP;Root\account_QESXKI;Get File Request;lrvh223b2;4;;109;
+11;20-5-2020 14:56;ZZ25VN;Root\account_QESXKI;Get File Request;lrvh223b2;4;;109;
+0;13-11-2020 11:04;FJ06PD;Root\account_TZEPDE;Get File Request;lrva95209;1;incident;109;
+14;24-5-2020 03:02;XT59MG;Root\account_TZEPDE;Get File Request;lrva95209;6;;109;1
+19;17-6-2020 18:12;AR06HU;Root\account_TZEPDE;Get File Request;lrva95209;2;incident;109;
+1;23-10-2020 13:32;RL85EA;Root\account_VQKEUX;Get File Request;lrvh223b2;8;;109;
+3;22-9-2020 13:32;WL02HX;Root\account_VQKEUX;Get File Request;lrvh223b2;4;;109;
+10;13-1-2021 16:22;SV45FD;Root\account_VQKEUX;Get File Request;lrvh223b2;8;;109;
+12;30-6-2020 19:57;BA90JG;Root\account_WUWBND;Get File Request;lrvh223b2;6;test;109;
