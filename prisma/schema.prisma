@@ -1,0 +1,59 @@
+// database
+datasource db {
+  provider = "sqlite"
+  url      = "file:database.db"
+}
+
+// generator
+generator client {
+  provider             = "prisma-client-py"
+  recursive_type_depth = 5
+}
+
+// The idea of the tables are
+// User -> Subordinate -> Application -> Server -> Requests
+// A user can have multiple subordinate (or users)
+// Each user has an application he handles
+// Each application has server(s)
+// Each server has requests
+
+model User {
+  uid           String        @id @default(cuid())
+  name          String?
+  Subordinate   Subordinate?  @relation(fields: [subordinateId], references: [id])
+  subordinateId String?
+  Application   Application[]
+}
+
+model Subordinate {
+  id           String @id @default(cuid())
+  Subordinates User[]
+}
+
+model Application {
+  id            String   @id @default(cuid())
+  appName       String
+  itCustodian   User     @relation(fields: [itCustodianId], references: [uid])
+  itCustodianId String
+  environment   String
+  Servers       Server[]
+}
+
+model Server {
+  id            String       @id @default(cuid())
+  Application   Application? @relation(fields: [applicationId], references: [id])
+  applicationId String?
+  Requests      Requests[]
+}
+
+model Requests {
+  id            String  @id @default(cuid())
+  Server        Server? @relation(fields: [serverId], references: [id])
+  serverId      String?
+  user          String
+  safe          String
+  action        String
+  requestID     String
+  reason        String
+  requestNumber String
+}
